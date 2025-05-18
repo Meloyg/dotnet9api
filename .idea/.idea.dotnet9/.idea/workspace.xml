@@ -9,12 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0044ef23-eced-483d-9461-bc7e32d737ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet9/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dotnet9.API/dotnet9.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dotnet9.API/dotnet9.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dotnet9.Domain/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dotnet9.Domain/dotnet9.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dotnet9.Domain/dotnet9.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dotnet9.Infrastructure/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dotnet9.Infrastructure/dotnet9.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dotnet9.Infrastructure/dotnet9.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +38,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2xFGzIH9u3nKIgA5SjjyK5rqp6o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -103,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747526670698</updated>
       <workItem from="1747526672141" duration="431000" />
-      <workItem from="1747527132147" duration="2416000" />
+      <workItem from="1747527132147" duration="2759000" />
     </task>
     <servers />
   </component>
