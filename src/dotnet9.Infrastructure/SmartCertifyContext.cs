@@ -43,8 +43,9 @@ public partial class SmartCertifyContext : DbContext
     public virtual DbSet<UserRole> UserRoles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=SmartCertify;Trusted_Connection=True;TrustServerCertificate=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https: //go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer(
+            "Server=localhost\\SQLEXPRESS;Database=SmartCertify;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -111,7 +112,8 @@ public partial class SmartCertifyContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_ExamQuestions_QuestionId");
 
-            entity.HasOne(d => d.SelectedChoice).WithMany(p => p.ExamQuestions).HasConstraintName("FK_ExamQuestions_SelectedChoiceId");
+            entity.HasOne(d => d.SelectedChoice).WithMany(p => p.ExamQuestions)
+                .HasConstraintName("FK_ExamQuestions_SelectedChoiceId");
         });
 
         modelBuilder.Entity<Notification>(entity =>
@@ -131,10 +133,7 @@ public partial class SmartCertifyContext : DbContext
                 .HasConstraintName("FK_Questions_CourseId");
         });
 
-        modelBuilder.Entity<Role>(entity =>
-        {
-            entity.HasKey(e => e.RoleId).HasName("PK_Roles_RoleId");
-        });
+        modelBuilder.Entity<Role>(entity => { entity.HasKey(e => e.RoleId).HasName("PK_Roles_RoleId"); });
 
         modelBuilder.Entity<SmartApp>(entity =>
         {
@@ -145,7 +144,8 @@ public partial class SmartCertifyContext : DbContext
         {
             entity.HasKey(e => e.LogId).HasName("PK_UserActivityLog_LogId");
 
-            entity.HasOne(d => d.User).WithMany(p => p.UserActivityLogs).HasConstraintName("FK_UserActivityLog_UserProfile");
+            entity.HasOne(d => d.User).WithMany(p => p.UserActivityLogs)
+                .HasConstraintName("FK_UserActivityLog_UserProfile");
         });
 
         modelBuilder.Entity<UserNotification>(entity =>
