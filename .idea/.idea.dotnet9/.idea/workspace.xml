@@ -9,20 +9,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0044ef23-eced-483d-9461-bc7e32d737ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dotnet9.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dotnet9.API/dotnet9.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dotnet9.API/dotnet9.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dotnet9.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dotnet9.Domain/dotnet9.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dotnet9.Domain/dotnet9.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dotnet9.Infrastructure/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dotnet9.Infrastructure/dotnet9.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dotnet9.Infrastructure/dotnet9.Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Meloyg"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Meloyg/dotnet9api.git",
+    "accountId": "e2939475-6746-4601-af4d-6eb2b1fd7802"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2xFGzIH9u3nKIgA5SjjyK5rqp6o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.dotnet9.API: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -83,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747526670698</updated>
       <workItem from="1747526672141" duration="431000" />
+      <workItem from="1747527132147" duration="2416000" />
     </task>
     <servers />
   </component>
